@@ -68,6 +68,20 @@ tagline: >-
 #   target — `_blank` (new tab) or `_self`
 # -----------------------------------------------------------------------------
 links:
+  - link:
+      icon: "fa-solid fa-link"
+      text: "FurTrack"
+      url: "https://www.furtrack.com/index/photographer:dakoru"
+      alt: "FurTrack"
+      title: "FurTrack"
+      target: "_blank"
+  - link:
+      icon: "fa-solid fa-link"
+      text: "FurAffinity"
+      url: "https://www.furaffinity.net/user/dakoru"
+      alt: "FurAffinity"
+      title: "FurAffinity"
+      target: "_blank"
   # → uses YouTubeChannelLatestVideoPlugin
   - link:
       icon: "fa-brands fa-youtube"
@@ -112,18 +126,6 @@ socials:
       url: "https://bsky.app/profile/dakoru.bsky.social"
       title: "Bluesky"
       alt: "Bluesky"
-      target: "_blank"
-  - social:
-      icon: "fa-solid fa-link"
-      url: "https://www.furtrack.com/index/photographer:dakoru"
-      title: "FurTrack"
-      alt: "FurTrack"
-      target: "_blank"
-  - social:
-      icon: "fa-solid fa-link"
-      url: "https://www.furaffinity.net/user/dakoru"
-      title: "FurAffinity"
-      alt: "FurAffinity"
       target: "_blank"
 
 # -----------------------------------------------------------------------------
