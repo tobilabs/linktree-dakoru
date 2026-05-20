@@ -82,21 +82,19 @@ links:
       alt: "FurAffinity"
       title: "FurAffinity"
       target: "_blank"
-  # → uses YouTubeChannelLatestVideoPlugin
-  - link:
-      icon: "fa-brands fa-youtube"
-      text: "{{ vars.YouTubeChannelLatestVideoPlugin['@fps-media'].title }}"
-      url: "{{ vars.YouTubeChannelLatestVideoPlugin['@fps-media'].url }}"
-      alt: "Latest YouTube video"
-      title: "Latest YouTube video"
-      target: "_blank"
-      latest: true
   - link:
       icon: "fa-solid fa-coins"
       text: "Ko-Fi"
       url: "https://ko-fi.com/dakoru"
       alt: "Ko-Fi"
       title: "Ko-Fi"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-youtube"
+      text: "FPS-Media YouTube Channel"
+      url: "https://youtube.com/@fps-media"
+      alt: "FPS-Media YouTube Channel"
+      title: "FPS-Media YouTube Channel"
       target: "_blank"
 
 # -----------------------------------------------------------------------------
