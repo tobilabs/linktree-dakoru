@@ -14,8 +14,6 @@ on:
       - preview.sh
       - 'themes/**/preview-*.png'
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight (00:00 UTC)
 
 # Prevent racing pushes from overwriting each other on gh-pages.
 # `cancel-in-progress: false` lets every triggered build complete.
